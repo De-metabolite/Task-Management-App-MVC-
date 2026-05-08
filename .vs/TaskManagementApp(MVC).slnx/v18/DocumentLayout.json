@@ -1,12 +1,117 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|c:\\users\\hp\\source\\repos\\taskmanagementapp(mvc)\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|solutionrelative:repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|c:\\users\\hp\\source\\repos\\taskmanagementapp(mvc)\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|c:\\users\\hp\\source\\repos\\taskmanagementapp(mvc)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|c:\\users\\hp\\source\\repos\\taskmanagementapp(mvc)\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|c:\\users\\hp\\source\\repos\\taskmanagementapp(mvc)\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|c:\\users\\hp\\source\\repos\\taskmanagementapp(mvc)\\taskmanagementapp(mvc).csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{950E8BDB-C4BA-3C44-6CD5-1096CE1A3993}|TaskManagementApp(MVC).csproj|solutionrelative:taskmanagementapp(mvc).csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:20:37.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskManagementApp(MVC).csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\TaskManagementApp(MVC).csproj",
+              "RelativeDocumentMoniker": "TaskManagementApp(MVC).csproj",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\TaskManagementApp(MVC).csproj",
+              "RelativeToolTip": "TaskManagementApp(MVC).csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T20:58:38.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:15:43.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:22:18.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:56:42.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\TaskManagementApp(MVC)\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:55:28.31Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
