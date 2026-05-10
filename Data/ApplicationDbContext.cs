@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TaskManagementApp_MVC_.Models
+using TaskManagementApp_MVC_.Entities;
 namespace TaskManagementApp_MVC_.Data
 {
     public class ApplicationDbContext:DbContext
