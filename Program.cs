@@ -1,9 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using TaskManagementApp_MVC_.Data;
+using TaskManagementApp_MVC_.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
+var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(ConnectionString));
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddSession();
 var app = builder.Build();
+app.UseSession();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
