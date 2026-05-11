@@ -6,7 +6,7 @@ namespace TaskManagementApp_MVC_.Repositories
 {
     public interface IUserRepository
     {
-        Task<bool> ExistingAccountAsync(string email, string password);
+        Task<User> ExistingAccountAsync(string email, string password);
         Task CreateUserAsync(User user);
     }
     public class UserRepository : IUserRepository
@@ -16,9 +16,9 @@ namespace TaskManagementApp_MVC_.Repositories
         {
             _context = context;
         }
-        public async Task<bool> ExistingAccountAsync(string email, string password)
+        public async Task<User> ExistingAccountAsync(string email, string password)
         {
-            var exist = await _context.Users.AnyAsync(u => u.Email == email && u.Password== password);
+            var exist = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password== password);
             return exist;
         }
         public async Task CreateUserAsync(User user)
