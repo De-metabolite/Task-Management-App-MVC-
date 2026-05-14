@@ -32,12 +32,17 @@ namespace TaskManagementApp_MVC_.Repositories
         public async Task<TaskItem> GetByIdAsync(int id, int UserId)
         {
             var result = await _context.TaskItems.FirstOrDefaultAsync(u=> u.Id == id && u.UserId == UserId);
+            if (result == null)
+            {
+                throw new TaskNotFoundException(id);
+            }
             return result;
         }
         public async Task AddAsync(TaskItem task) 
         {  
              await _context.TaskItems.AddAsync(task);
-            return;
+             await _context.SaveChangesAsync();
+           
         }
         public async Task UpdateAsync(TaskItem task) 
         {
@@ -46,12 +51,15 @@ namespace TaskManagementApp_MVC_.Repositories
         }
         public async Task DeleteAsync(int id, int UserId)
         {
-            var delete = await _context.TaskItems.FirstOrDefaultAsync(u=> u.Id == id && u.UserId== UserId);
-            if (delete != null)
-            {
-                _context.TaskItems.Remove(delete);
-                await _context.SaveChangesAsync();
-            }
+            
+                var delete = await _context.TaskItems.FirstOrDefaultAsync(u => u.Id == id && u.UserId == UserId);
+                if (delete != null)
+                {
+                    _context.TaskItems.Remove(delete);
+                    await _context.SaveChangesAsync();
+                }
+            else { throw new TaskNotFoundException(id); }
+           
         }
         public async Task<IEnumerable<TaskItem>> GetByStatusAsync(Status status, int UserId) 
         { 
